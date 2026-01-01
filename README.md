@@ -23,7 +23,7 @@ If you have Go installed, you can install it directly:
 go install github.com/nirabyte/todo@latest
 ```
 
-OR get the binary directly [Todo](https://github.com/nirabyte/todo/raw/refs/heads/main/todo)
+OR get the latest binary [Todo](https://github.com/nirabyte/todo/releases/download/v1.0/todo)
 
 ### Build from Source
 
