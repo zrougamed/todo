@@ -1,4 +1,4 @@
-module github.com/nirabyte/todo-cli
+module github.com/nirabyte/todo
 
 go 1.25.5
 
