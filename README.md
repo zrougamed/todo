@@ -6,8 +6,6 @@ A simple, interactive, keyboard-driven TUI todo list manager for the terminal.
 
 ## Features
 
----
-
 - Clean, colorful terminal interface with 10 built-in color themes
 - 30 unique completion animations
 - Timer notifications with desktop alerts (Windows, macOS, Linux)
@@ -17,8 +15,6 @@ A simple, interactive, keyboard-driven TUI todo list manager for the terminal.
 
 ## Installation
 
----
-
 ### Go Install
 
 If you have Go installed, you can install it directly:
@@ -27,9 +23,9 @@ If you have Go installed, you can install it directly:
 go install github.com/nirabyte/todo@latest
 ```
 
-### Build from Source
+OR get the binary directly [Todo](https://github.com/nirabyte/todo/raw/refs/heads/main/todo)
 
----
+### Build from Source
 
 Clone the repository and build the binary:
 
@@ -43,8 +39,6 @@ Move the binary to a location in your PATH for global access, or run it directly
 
 ## Usage
 
----
-
 Start the application by running:
 
 ```bash
@@ -54,8 +48,6 @@ todo
 The application launches with an interactive terminal interface. On first run, you'll see helpful hints to get started.
 
 ## Controls
-
----
 
 ### Navigation
 
@@ -81,8 +73,6 @@ The application launches with an interactive terminal interface. On first run, y
 
 ### Timer and Notifications
 
----
-
 | Key | Action                                         |
 | --- | ---------------------------------------------- |
 | `@` | Set a timer notification for the selected task |
@@ -100,16 +90,12 @@ When a timer expires, you'll receive a desktop notification for the task. The ti
 
 ### Customization
 
----
-
 | Key | Action                         |
 | --- | ------------------------------ |
 | `t` | Cycle through available themes |
 | `s` | Cycle through sorting modes    |
 
 ## Themes
-
----
 
 Todo CLI includes 10 carefully curated color themes:
 
@@ -130,8 +116,6 @@ Press `t` to cycle through themes. Your theme preference is saved automatically.
 
 ## Sorting Modes
 
----
-
 Three sorting modes are available:
 
 - **Off** - No sorting (default order based on task creation)
@@ -143,8 +127,6 @@ Press `s` to cycle through sorting modes. Your preference is saved automatically
 ![Sorting Modes](asssets/sort.gif)
 
 ## Completion Animations
-
----
 
 When you mark a task as complete, one of 30 unique animations plays. These include:
 
@@ -162,8 +144,6 @@ Each completion animation is randomly selected, ensuring a unique visual experie
 
 ## Data Storage
 
----
-
 Tasks are stored locally in a `todos.json` file in the same directory where you run the application. The file includes:
 
 - All tasks with their titles, completion status, and due dates
@@ -174,15 +154,12 @@ The data persists between sessions, so your tasks will be available the next tim
 
 ## Requirements
 
----
-
 - Go 1.25.5 or later (for building from source)
 - A terminal that supports ANSI color codes
 - Desktop notification support (optional, for timer notifications)
 
 ## Built With
 
----
 - **Go** - Programming language
 - **Bubble Tea** - TUI Framework
 - **Lip Gloss** - Styling library
