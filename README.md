@@ -18,17 +18,10 @@ A terminal-based todo list manager with animations, themes, and notifications.
 ### Download Pre-built Binary (Recommended)
 
 1. Go to [Releases](https://github.com/nirabyte/todo/releases)
-2. Download the folder for your system:
-   - **Windows**: `windows-amd64` folder → contains `todo.exe`
-   - **macOS (Intel)**: `darwin-amd64` folder → contains `todo`
-   - **macOS (Apple Silicon)**: `darwin-arm64` folder → contains `todo`
-   - **Linux (64-bit)**: `linux-amd64` folder → contains `todo`
-   - **Linux (32-bit)**: `linux-386` folder → contains `todo`
-   - **Linux (ARM)**: `linux-arm64` or `linux-arm` folder → contains `todo`
-
+2. Download the binary for your system.
 3. Extract the folder and run:
    - **Windows**: Double-click `todo.exe` or run `.\todo.exe` in terminal
-   - **macOS/Linux**: Run `./todo` in terminal (you may need to `chmod +x todo` first)
+   - **macOS/Linux**: Run `./todo-app-name` in terminal (you may need to `chmod +x todo-app-name` first)
 
 ### Install with Go
 
