@@ -18,17 +18,10 @@ A terminal-based todo list manager with animations, themes, and notifications.
 ### Download Pre-built Binary (Recommended)
 
 1. Go to [Releases](https://github.com/nirabyte/todo/releases)
-2. Download the folder for your system:
-   - **Windows**: `windows-amd64` folder → contains `todo.exe`
-   - **macOS (Intel)**: `darwin-amd64` folder → contains `todo`
-   - **macOS (Apple Silicon)**: `darwin-arm64` folder → contains `todo`
-   - **Linux (64-bit)**: `linux-amd64` folder → contains `todo`
-   - **Linux (32-bit)**: `linux-386` folder → contains `todo`
-   - **Linux (ARM)**: `linux-arm64` or `linux-arm` folder → contains `todo`
-
+2. Download the binary for your system.
 3. Extract the folder and run:
    - **Windows**: Double-click `todo.exe` or run `.\todo.exe` in terminal
-   - **macOS/Linux**: Run `./todo` in terminal (you may need to `chmod +x todo` first)
+   - **macOS/Linux**: Run `./todo-app-name` in terminal (you may need to `chmod +x todo-app-name` first)
 
 ### Install with Go
 
@@ -42,6 +35,18 @@ Then run:
 
 ```bash
 todo
+```
+
+If Go’s bin directory isn’t in your PATH, add it by running:
+
+```
+export PATH=$PATH:$HOME/go/bin
+```
+
+Then reload your shell:
+
+```
+source ~/.bashrc   # or ~/.zshrc if you use Zsh
 ```
 
 ### Build from Source
@@ -200,8 +205,8 @@ You can backup this file, edit it manually, or move it to another computer.
 
 ```
 todo/
-├── assets/          # Images/icons 
-├── cmd/todo/        
+├── assets/          # Images/icons
+├── cmd/todo/
 │   └── main.go      # Entry point
 ├── internal/
 │   ├── app/         # App setup
@@ -210,7 +215,7 @@ todo/
 │   └── ui/          # UI code
 ├── go.mod           # Go module dependencies
 ├── go.sum           # Dependency checksums
-└── README.md        
+└── README.md
 ```
 
 ### Building for All Platforms
@@ -231,8 +236,6 @@ This creates binaries for:
 
 ## Roadmap
 
-### Done
-
 - [x] Core app: tasks, themes, animations, timers, inline edit, sorting
 - [x] JSON-based persistence (`todos.json`) with automatic save
 - [x] 10 color themes (Catppuccin, Nord, Gruvbox, Tokyo Night,etc)
@@ -240,12 +243,13 @@ This creates binaries for:
 - [x] Timer reminders with desktop notifications
 - [x] Inline task editing
 - [x] Sorting modes (Off / Todo First / Done First)
-- [x] build scripts for multiple platforms (Windows/macOS/Linux)
-- [ ] Multilevel tasks (subtasks/tree)
-- [ ] Markdown storage + import/export
-- [ ] Import TODOs from source code
-- [ ] More UI improvements
-- [ ] More Features?
+- [ ] Add search/filter option
+- [ ] Tasks with description,  status indicator and active filename in header
+- [ ] Add CLI arguments for dates/days, todolist, file selection, and import/export commands
+- [ ] Extend timers to days/weeks/months and add absolute due dates with visual indicators
+- [ ] Add markdown support
+- [ ] JSON/Markdown import/export feature
+- [ ] More UI/UX improvements 
 
 ## Built With
 
@@ -265,3 +269,9 @@ Please see the full contribution guidelines in `CONTRIBUTING.md`.
 This project is licensed under the MIT License — see the `LICENSE` file for details.
 
 [LICENSE](LICENSE)
+
+## Contact
+
+If you have questions, suggestions, or just want to chat, feel free to reach out to me on Discord:
+
+[Message me on Discord](https://discord.com/users/863252422913687614)
