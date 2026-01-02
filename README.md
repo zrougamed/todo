@@ -37,6 +37,18 @@ Then run:
 todo
 ```
 
+If Go’s bin directory isn’t in your PATH, add it by running:
+
+```
+export PATH=$PATH:$HOME/go/bin
+```
+
+Then reload your shell:
+
+```
+source ~/.bashrc   # or ~/.zshrc if you use Zsh
+```
+
 ### Build from Source
 
 1. Clone the repository:
