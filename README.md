@@ -236,8 +236,6 @@ This creates binaries for:
 
 ## Roadmap
 
-### Done
-
 - [x] Core app: tasks, themes, animations, timers, inline edit, sorting
 - [x] JSON-based persistence (`todos.json`) with automatic save
 - [x] 10 color themes (Catppuccin, Nord, Gruvbox, Tokyo Night,etc)
