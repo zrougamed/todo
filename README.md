@@ -243,12 +243,14 @@ This creates binaries for:
 - [x] Timer reminders with desktop notifications
 - [x] Inline task editing
 - [x] Sorting modes (Off / Todo First / Done First)
-- [x] build scripts for multiple platforms (Windows/macOS/Linux)
-- [ ] Multilevel tasks (subtasks/tree)
-- [ ] Markdown storage + import/export
-- [ ] Import TODOs from source code
-- [ ] More UI improvements
-- [ ] More Features?
+- [ ] Add search/filter option
+- [ ] Tasks with description,  status indicator and active filename in header
+- [ ] Add CLI arguments for dates/days, todolist, file selection, and import/export commands
+- [ ] Extend timers to days/weeks/months and add absolute due dates with visual indicators
+- [ ] Add markdown support
+- [ ] JSON/Markdown import/export feature
+- [ ] Display active filename in header
+- [ ] More UI/UX improvements 
 
 ## Built With
 
